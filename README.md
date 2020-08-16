@@ -10,4 +10,7 @@
 #Challenges
 -We made our prototype for the project from an interactive website. We grossly underestimated the amount of time it would take to implement all the necessary components. We wanted to use the Google Civic Information API so that the user can search for the polling locations near them, but most of us are beginners with using API and Javascript. Also, most of us are first timers in terms of participating in a hackathon.
 
+#Back-End
+Used https://newsapi.org for Javascript API and allows user to search for any topic using a keyword.
+
  - Overall, one thing we can guarantee is that despite not being able to accomplish everything on time, each one of us did try our best to do what we can and are proud of how we were able to work together in such a short time!
