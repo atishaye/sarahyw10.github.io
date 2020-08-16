@@ -1,0 +1,100 @@
+main {
+  background-color: #FAF9FE;
+  width: 90%;
+  min-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 1000px;
+}
+
+#location-bar{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#location-text{
+  display: flex;
+  flex-direction: row;
+}
+
+#location-bar p{
+  align-self: center;
+  padding: 10px 50px 10px 50px;
+}
+
+#location-bar h2{
+  align-self: center;
+  text-decoration: underline;
+  color: #9B51E0;
+}
+
+#location-name{
+  color: #9B51E0;
+}
+
+button{
+  align-self: center;
+  background-color: #FAF9FE;
+  border: 2px solid #9B51E0;
+  border-radius: 15px;
+  text-align: center;
+  color: #9B51E0;
+  padding: 5px 15px;
+  margin-right: 10px;
+}
+
+#checkbox-bar{
+  background-color: white;
+  padding: 15px 50px;
+  display:flex;
+  flex-direction: column;
+  align-content: space-between;
+  border-top: 1px solid #F2E5F4;
+  border-bottom: 1px solid #F2E5F4;
+}
+
+#checkbox-bar p{
+  margin: 0px;
+  margin-bottom:15px;
+  color:grey;
+}
+
+#checkboxes {
+  display: flex;
+  margin-left: -50px;
+}
+
+#checkboxes input{
+  margin-left: 50px;
+      top: 0;
+      left: 0;
+      height: 15px;
+      width: 15px;
+      background-color: #9B51E0;
+}
+
+.election-box {
+  margin: 15px;
+  padding: 20px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.election-image {
+  width: 150px;
+  height: 100px;
+  background-color: white;
+  border: solid white 15px;
+  border-radius: 15px;
+}
+
+.election-box div{
+  align-self: center;
+}
