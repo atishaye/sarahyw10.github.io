@@ -1,0 +1,217 @@
+--- Banner starts here ---
+* {
+    overflow-x: hidden;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.logo{
+    line-height: 550%;
+}
+header {
+    width: 118px;
+    color: rgba(0,0,0,1);
+    position: relative;
+    top: 0px;
+    left: 40px;
+    bottom: 100px;
+    font-family: VG5000, sans-serif;
+    font-weight: 400;
+    font-size: 29px;
+    opacity: 1;
+    text-align: center;
+}
+ellipse{
+    background: url("Ellipse.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 140px;
+    bottom: 720px;
+}
+.left{
+    position: absolute;
+    width: 594px;
+    height: 48px;
+    left: 719px;
+    top: 26px;
+}
+.button{
+    position: absolute;
+    left: 77.95%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    filter: drop-shadow(0px 10px 25px rgba(21, 37, 72, 0.1));
+}
+label {
+    color: #9c52e1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: Bold;
+    font-size: 16px;
+    opacity: 1;
+    justify-content: center;
+    align-items: center;
+}
+box {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+
+    /* Purple 1 */
+    border: 2px solid #9B51E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+h1{
+    position: absolute;
+    height: 22px;
+    left: 0%;
+    right: 80%;
+    top: calc(50% - 22px/2);
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #183B56;
+}
+h3{
+    position: absolute;
+    height: 22px;
+    left: 20%;
+    right: 20%;
+    top: calc(50% - 22px/2);
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #183B56;
+}
+h2{
+    position: absolute;
+    height: 22px;
+    left: 10%;
+    right: 50%;
+    top: calc(50% - 22px/2);
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #183B56;
+}
+h4{
+    position: absolute;
+    height: 22px;
+    left: 40%;
+    right: 5%;
+    top: calc(50% - 22px/2);
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #183B56;
+}
+@font-face {
+    font-family: 'VG5000';
+    src:    url('fonts/VG5000-Regular_web.eot');
+    src:    url('fonts/VG5000-Regular_web.eot?#iefix') format('embedded-opentype'),
+    url('fonts/VG5000-Regular_web.woff') format('woff'),
+    url('fonts/VG5000-Regular_web.woff2') format('woff2'),
+    url('fonts/VG5000-Regular_web.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+--- Banner end here ---
+.First{
+    position: absolute;
+    height: 500px;
+    left: 21.33%;
+    right: 21.45%;
+    top: calc(50% - 500px/2 - 46px);
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 68px;
+    /* or 121% */
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #183B56;
+}
+iframe{
+    position: absolute;
+    height: 700px;
+    left: 21.33%;
+    right: 21.45%;
+    top: calc(50% - 700px/2 - 46px);
+    opacity: 0.3;
+}
+.frame{
+    position: absolute;
+    width: 918px;
+    height: 72px;
+    left: 150px;
+    top: 215px;
+}
+.Second{
+    position: absolute;
+    height: 72px;
+    left: 15%;
+    right: 4%;
+    top: calc(50% - 72px/2);
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    /* or 180% */
+    text-align: center;
+
+    color: #5A7184;
+}
+.mask{
+    position: absolute;
+    width: 1210px;
+    height: 147px;
+    left: 58px;
+    top: 411px;
+
+    background: #FAF9FE;
+    border-radius: 8px;
+}
+.search{
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    left: 350px;
+    top: 440px;
+
+    background: #FFFFFF;
+    box-shadow: 0px -10px 35px rgba(0, 0, 0, 0.03);
+    border-radius: 8px;
+}
