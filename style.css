@@ -591,7 +591,7 @@
 .v15_506 {
     width: 48px;
     height: 48px;
-    background: url("../images/v15_506.png");
+    background: url("Badge.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -791,7 +791,7 @@
 .v15_522 {
     width: 48px;
     height: 48px;
-    background: url("../images/v15_522.png");
+    background: url("Badgeflag.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -1185,7 +1185,7 @@
     text-align: center;
 }
 .v15_552 {
-    width: 830px;
+    width: 1000px;
     height: 228px;
     /*background: rgba(255,255,255,1);*/
     opacity: 1;
@@ -1377,7 +1377,7 @@
     top: 31px;
     left: 24px;
     font-family: 'Font Awesome 5 Free';
-    font-weight: Solid;
+    font-weight: 500;
     font-size: 18px;
     opacity: 1;
     text-align: left;
@@ -1770,18 +1770,7 @@
     font-weight: normal;
     font-style: normal;
 }
-/*iframe{*/
-/*    position: absolute;*/
-/*    height: 300px;*/
 
-/*    !*right: 21.45%;*!*/
-/*    top: calc(50% - 700px/2 - 46px);*/
-/*    opacity: 0.3;*/
-/*    width: 861px;*/
-/*    color: rgba(90,113,132,1);*/
-/*    !*top: 0px;*!*/
-/*    left: 29px;*/
-/*}*/
 @font-face {
     font-family: 'HK Grotesk';
     src: url('fonts/hk-grotesk.regular.ttf');
@@ -1795,53 +1784,3 @@
     height:800px;
     opacity: 0.3;
 }
-.dropbtn {
-    /*background-color: #4CAF50;*/
-    /*color: white;*/
-    padding: 16px;
-    /*font-size: 16px;*/
-    border: none;
-    width: 12px;
-    color: rgba(24,59,86,1);
-    position: absolute;
-    left: 70px;
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 500;
-    font-size: 14px;
-    opacity: 1;
-    text-align: center;
-    /*border: none;*/
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-<<<<<<< HEAD
-.nav{
-  display: inline;
-}
-=======
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
->>>>>>> 91b1a17551312ce3768d20f8f6385b6b42d93ded
